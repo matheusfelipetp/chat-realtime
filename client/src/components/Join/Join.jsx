@@ -19,7 +19,7 @@ const Join = () => {
 
   return (
     <div>
-      <h1>Join</h1>
+      <h1>Entre no Chat</h1>
       <input type="text" placeholder="Nome de usuário" ref={userRef} />
       <Link to="/chat" onClick={() => handleSubmit()}>
         Entrar
